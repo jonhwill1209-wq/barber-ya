@@ -26,9 +26,9 @@ export async function enviarCorreoConfirmacion(datos: DatosCorreoConfirmacion): 
         const resend = new Resend(apiKey);
 
         await resend.emails.send({
-            from: "BarberSlot <onboarding@resend.dev>",
+            from: "BarberYa <onboarding@resend.dev>",
             to: datos.correoCliente,
-            subject: "Confirmación de tu cita en BarberSlot",
+            subject: "Confirmación de tu cita en BarberYa",
             html: `
                 <p>Hola ${datos.nombreCliente},</p>
                 <p>Tu cita quedó registrada:</p>
@@ -37,7 +37,7 @@ export async function enviarCorreoConfirmacion(datos: DatosCorreoConfirmacion): 
                     <li>Servicio: ${datos.nombreServicio}</li>
                     <li>Fecha y hora: ${datos.fechaHoraTexto}</li>
                 </ul>
-                <p>Te esperamos en BarberSlot.</p>
+                <p>Te esperamos en BarberYa.</p>
             `,
         });
     } catch (error) {

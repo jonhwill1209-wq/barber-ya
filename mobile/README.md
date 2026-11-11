@@ -1,6 +1,6 @@
-# BarberSlot Mobile
+# BarberYa Mobile
 
-Aplicación móvil del proyecto BarberSlot.
+Aplicación móvil del proyecto BarberYa.
 
 Tecnologías previstas:
 

@@ -15,10 +15,10 @@ export default function AdminLoginPage() {
                     <h1 className=" text-4xl font-extrabold md:text-5xl">
                         Barber
                         <span className="text-brand-gold">
-                            Slot
+                            Ya
                         </span>
                     </h1>
-                    <Image src="/images/brand/logo.svg" alt="Logo de BarberSlot" width={72} height={72} priority/>
+                    <Image src="/images/brand/logo.svg" alt="Logo de BarberYa" width={72} height={72} priority/>
                 </div>
             </header>
             {/* Contenido */}
