@@ -1,6 +1,6 @@
 /* ================================================
     web/src/app/layout.tsx
-    Layout raíz de BarberSlot
+    Layout raíz de BarberYa
 ================================================ */
 import type { Metadata } from "next";
 import { montserrat } from "@/lib/fonts";
@@ -8,7 +8,7 @@ import AppProviders from "@/components/providers/AppProviders";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "BarberSlot",
+    title: "BarberYa",
     description: "Sistema de reserva de citas para Barbería Estilo Clásico"
 };
 

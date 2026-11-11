@@ -19,7 +19,7 @@ export default function Header() {
                 {/* Logo */}
                 <Link href="/" aria-label="Ir al inicio">
                 <Image src="/images/brand/logo.svg"
-                        alt="BarberSlot"
+                        alt="BarberYa"
                         width={72}
                         height={72}
                         priority />

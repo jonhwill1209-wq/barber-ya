@@ -1,6 +1,6 @@
-# BarberSlot Web
+# BarberYa Web
 
-Aplicación Web del proyecto BarberSlot.
+Aplicación Web del proyecto BarberYa.
 
 Tecnologías previstas:
 
@@ -24,4 +24,4 @@ npx prisma migrate deploy
 npx prisma db seed
 ```
 
-Usuarios de prueba tras el seed: `admin@barberslot.test` / `Admin123!` (administrador) y `henry@barberslot.test` / `Barber123!` (barbero).
+Usuarios de prueba tras el seed: `admin@barberya.test` / `Admin123!` (administrador) y `henry@barberya.test` / `Barber123!` (barbero).

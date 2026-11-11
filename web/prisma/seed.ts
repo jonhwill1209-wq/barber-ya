@@ -46,8 +46,8 @@ async function main() {
 
     await prisma.usuario.create({
         data: {
-            nombre: "Administrador BarberSlot",
-            correo: "admin@barberslot.test",
+            nombre: "Administrador BarberYa",
+            correo: "admin@barberya.test",
             contraHash: await bcrypt.hash("Admin123!", 10),
             rol: "administrador",
             activo: true,
@@ -56,7 +56,7 @@ async function main() {
     await prisma.usuario.create({
         data: {
             nombre: "Henry Martinez",
-            correo: "henry@barberslot.test",
+            correo: "henry@barberya.test",
             contraHash: await bcrypt.hash("Barber123!", 10),
             rol: "barbero",
             activo: true,

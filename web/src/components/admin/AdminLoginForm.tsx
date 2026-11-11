@@ -46,7 +46,7 @@ export default function AdminLoginForm() {
                     </label>
                     <input id="correo" name="correo" type="email" required autoComplete="email" value={correo}
                         onChange={(event) => setCorreo(event.target.value)} className="input-base"
-                        placeholder="ejemplo@barberslot.com" />
+                        placeholder="ejemplo@barberya.com" />
                 </div>
                 {/* Contraseña */}
                 <div>

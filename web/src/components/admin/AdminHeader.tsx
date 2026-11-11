@@ -57,10 +57,10 @@ export default function AdminHeader() {
                     <div className=" text-3xl font-extrabold md:text-4xl">
                         BARBER{" "}
                         <span className="text-brand-gold">
-                            SLOT
+                            YA
                         </span>
                     </div>
-                    <Image src="/images/brand/logo.svg" alt="Logo BarberSlot" width={64} height={64} priority />
+                    <Image src="/images/brand/logo.svg" alt="Logo BarberYa" width={64} height={64} priority />
                 </Link>
                 {/* Navegación */}
                 <nav className=" flex flex-wrap items-center justify-center gap-6 lg:gap-10" aria-label="Navegación administrativa">
